@@ -45,8 +45,8 @@ contract DecentralizedStableCoin is ERC20Burnable, Ownable {
 
     /**
      * @notice Burns DSC tokens from the owner's balance.
-     * @dev Overrides the `burn` function from ERC20Burnable. 
-     *      Validates that `_amount` is greater than zero and 
+     * @dev Overrides the `burn` function from ERC20Burnable.
+     *      Validates that `_amount` is greater than zero and
      *      does not exceed the caller's balance before burning.
      * @param _amount The amount of tokens to burn (must be greater than zero).
      */
